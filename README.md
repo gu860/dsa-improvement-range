@@ -2,7 +2,7 @@
 
 > 3D 沉浸式数据结构与算法可视化对比平台
 
-![Dijkstra Running](screenshots/verify-inside.png)
+![Dijkstra Running](screenshots/city-center-dijkstra.png)
 
 ## 简介
 
@@ -10,7 +10,7 @@
 
 目前内置 **40+ 种算法对比模板**，覆盖排序、图、树、动态规划、搜索、字符串六大类别，每种算法都提供 JavaScript 和 Python 双语言版本。
 
-![City View](screenshots/city-viewport.png)
+![City View](screenshots/city-river.png)
 
 ## 核心特性
 
@@ -21,7 +21,7 @@
 - **代码编辑器** — CodeMirror 6，支持 JS/Python 语法高亮
 - **统计面板** — 显示朴素 vs 优化的步骤数、执行时间、加速比
 
-![Search Comparison](screenshots/scene-library-v4.png)
+![Search Comparison](screenshots/logistics-center.png)
 
 ## 技术栈
 
@@ -77,7 +77,7 @@ npm run preview
 
 所有算法均有 **JavaScript + Python 双版本**。
 
-![Prim Algorithm](screenshots/visual-prim-style-pass.png)
+![Prim Algorithm](screenshots/city-center-dijkstra.png)
 
 ## 项目结构
 
@@ -96,7 +96,7 @@ src/
 
 用户选择算法模板 → 代码在 Web Worker 沙箱中执行 → 每一步通过 `trace()` 记录快照 → 3D 场景根据快照逐帧播放 → 支持前进/后退/变速。
 
-![Dijkstra Delivery](screenshots/visual-dijkstra-final-readable.png)
+![Dijkstra Delivery](screenshots/logistics-center.png)
 
 ## 开发
 
@@ -118,7 +118,7 @@ MIT
 
 It includes **40+ algorithm comparison templates** across sorting, graph, tree, dynamic programming, search, and string categories. Each template is available in both **JavaScript** and **Python**.
 
-![Dijkstra Running](screenshots/verify-inside.png)
+![Dijkstra Running](screenshots/city-center-dijkstra.png)
 
 ## Features
 
@@ -129,7 +129,7 @@ It includes **40+ algorithm comparison templates** across sorting, graph, tree, 
 - **Code editor** — CodeMirror 6 with JS/Python syntax highlighting
 - **Statistics panel** — Step count, execution time, speedup ratio
 
-![City Night View](screenshots/city-viewport.png)
+![City Night View](screenshots/city-river.png)
 
 ## Tech Stack
 
@@ -183,7 +183,7 @@ npm run dev
 
 All algorithms have **JavaScript + Python dual versions**.
 
-![Search Library Scene](screenshots/scene-library-v4.png)
+![Search Library Scene](screenshots/logistics-center.png)
 
 ## Architecture
 
@@ -200,7 +200,7 @@ src/
 
 **Flow**: User selects template → code runs in Web Worker sandbox → each step recorded via `trace()` snapshots → 3D scene plays back frame-by-frame → supports step/reverse/speed control.
 
-![Prim MST](screenshots/visual-prim-style-pass.png)
+![Prim MST](screenshots/city-center-dijkstra.png)
 
 ## License
 
