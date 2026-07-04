@@ -1,0 +1,30 @@
+node_modules
+dist
+.DS_Store
+*.local
+
+# Dev logs
+vite-dev*.log
+console-all.txt
+*.err.log
+
+# Screenshots & test artifacts
+*.png
+*.jpg
+*.gif
+
+# Test results
+test-results/
+*.report.json
+
+# Temp
+.tmp/
+page-snapshot.txt
+debug-*.png
+debug-*.txt
+after-*.txt
+
+# IDE / OS
+.opencode/
+.playwright-mcp/
+.history/

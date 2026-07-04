@@ -1,0 +1,81 @@
+{
+  "info": {
+    "canvases": [
+      {
+        "i": 0,
+        "w": 719,
+        "h": 496,
+        "rect": {
+          "x": 0,
+          "y": 321.5,
+          "width": 719,
+          "height": 496.5,
+          "top": 321.5,
+          "right": 719,
+          "bottom": 818,
+          "left": 0
+        }
+      },
+      {
+        "i": 1,
+        "w": 716,
+        "h": 496,
+        "rect": {
+          "x": 724,
+          "y": 321.5,
+          "width": 716,
+          "height": 496.5,
+          "top": 321.5,
+          "right": 1440,
+          "bottom": 818,
+          "left": 724
+        }
+      }
+    ],
+    "text": "算法改进靶场\nJavaScript\nPython\n冒泡排序 vs 快速排序\nBFS vs DFS 图遍历\n0-1 背包 DP\n二叉树 BFS vs DFS\n选择排序 → 堆排序\n插入排序 → 希尔排序\n归并排序(递归) → 归并排序(迭代)\n计数排序 → 基数排序\nDijkstra(朴素) → Dijkstra(堆)\nPrim(朴素) → Prim(堆)\n并查集(QuickFind) → 并查集(路径压缩)\nLCS(递归) → LCS(DP)\n零钱兑换(递归) → 零钱兑换(DP)\n编辑距离(递归) → 编辑距离(DP)\n不同路径(递归) → 不同路径(DP)\n打家劫舍(递归) → 打家劫舍(DP)\n树高度(递归) → 树高度(BFS)\n验证BST(范围) → 验证BST(中序)\nLCA(路径收集) → LCA(递归)\n遍历(递归) → 遍历(迭代)\n线性搜索 → 二分搜索\n两数之和(暴力) → 两数之和(哈希)\n旋转数组(线性) → 旋转数组(二分)\n峰值元素(线性) → 峰值元素(二分)\n朴素字符串匹配 → KMP\n最长回文(暴力) → 最长回文(中心扩展)\n异位词(排序) → 异位词(哈希)\n无重复子串(暴力) → 滑动窗口\n数据:\n▶ 运行\n优化前 (Naive)\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n⌄\n⌄\n⌄\n⌄\n// Dijkstra（朴素）\nconst defaultGraph = { nodes: [{ id: 0, label: 'A' }, { id: 1, label: 'B' }, { id: 2, label: 'C' }, { id: 3, label: 'D' }, { id: 4, label: 'E' }, { id: 5, label: 'F' }], edges: [{ from: 0, to: 1, weight: 4 }, { from: 0, to: 2, weight: 2 }, { from: 1, to: 3, weight: 5 }, { from: 2, to: 1, weight: 1 }, { from: 2, to: 3, weight: 8 }, { from: 2, to: 4, weight: 10 }, { from: 3, to: 4, weight: 2 }, { from: 3, to: 5, weight: 6 }, { from: 4, to: 5, weight: 3 }] };\nfunction dijkstra(graph, start) {\n  const { nodes, edges } = graph;\n  const n = nodes.length; const dist = new"
+  },
+  "logs": [
+    "debug: [vite] connecting...",
+    "debug: [vite] connected.",
+    "info: %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold",
+    "error: Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "debug: unsupported GPOS table LookupType 8 format 2",
+    "debug: unsupported GPOS table LookupType 5 format 1",
+    "debug: unsupported GSUB table LookupType 6 format 2",
+    "debug: unsupported GSUB table LookupType 6 format 1",
+    "debug: unsupported GPOS table LookupType 8 format 2",
+    "debug: unsupported GPOS table LookupType 5 format 1",
+    "debug: unsupported GSUB table LookupType 6 format 2",
+    "debug: unsupported GSUB table LookupType 6 format 1",
+    "debug: unknown format: 14 0 5 28",
+    "debug: unsupported GPOS table LookupType 1 format 2",
+    "debug: unsupported GPOS table LookupType 1 format 2",
+    "debug: unsupported GPOS table LookupType 1 format 2",
+    "debug: unsupported GPOS table LookupType 1 format 2",
+    "debug: unknown format: 14 0 5 28",
+    "debug: unsupported GPOS table LookupType 1 format 2",
+    "debug: unsupported GPOS table LookupType 1 format 2",
+    "debug: unknown format: 14 0 5 28",
+    "debug: unknown format: 14 0 5 28",
+    "debug: unknown format: 14 0 5 28",
+    "debug: unsupported GPOS table LookupType 1 format 2",
+    "debug: unsupported GPOS table LookupType 1 format 2",
+    "debug: unknown format: 14 0 5 468",
+    "debug: unknown format: 14 0 5 28",
+    "debug: unsupported GPOS table LookupType 1 format 2",
+    "debug: unsupported GPOS table LookupType 1 format 2",
+    "debug: unsupported GPOS table LookupType 1 format 2",
+    "debug: unsupported GPOS table LookupType 1 format 2",
+    "debug: unsupported GPOS table LookupType 1 format 2",
+    "debug: unsupported GPOS table LookupType 1 format 2",
+    "debug: unsupported GPOS table LookupType 1 format 2",
+    "debug: unsupported GPOS table LookupType 1 format 2",
+    "debug: unsupported GPOS table LookupType 1 format 2",
+    "debug: unsupported GPOS table LookupType 1 format 2",
+    "debug: unsupported GPOS table LookupType 1 format 2",
+    "debug: unknown format: 14 0 5 468",
+    "debug: unsupported GPOS table LookupType 1 format 2",
+    "debug: unsupported GPOS table LookupType 1 format 2",
+    "debug: unknown format: 14 0 5 28"
+  ]
+}
