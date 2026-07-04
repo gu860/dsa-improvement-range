@@ -28,3 +28,10 @@ after-*.txt
 .opencode/
 .playwright-mcp/
 .history/
+
+# Binary artifacts
+*.tgz
+*.zip
+
+# Debug dumps
+debug-*.json
