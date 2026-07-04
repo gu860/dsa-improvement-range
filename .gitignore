@@ -12,6 +12,8 @@ console-all.txt
 *.png
 *.jpg
 *.gif
+!screenshots/*.png
+!screenshots/*.jpg
 
 # Test results
 test-results/

@@ -2,7 +2,7 @@
 
 > 3D 沉浸式数据结构与算法可视化对比平台
 
-![City Overview](city-overview.jpg)
+![City Overview](screenshots/city-overview.jpg)
 
 ## 简介
 
@@ -10,7 +10,7 @@
 
 目前内置 **40+ 种算法对比模板**，覆盖排序、图、树、动态规划、搜索、字符串六大类别，每种算法都提供 JavaScript 和 Python 双语言版本。
 
-![Dijkstra Park](entrance-dijkstra.png)
+![Dijkstra Park](screenshots/entrance-dijkstra.png)
 
 ## 核心特性
 
@@ -21,7 +21,7 @@
 - **代码编辑器** — CodeMirror 6，支持 JS/Python 语法高亮
 - **统计面板** — 显示朴素 vs 优化的步骤数、执行时间、加速比
 
-![Sorting Factory](sorting.png)
+![Sorting Factory](screenshots/sorting.png)
 
 ## 技术栈
 
@@ -84,7 +84,7 @@ npm run preview
 
 所有算法均有 **JavaScript + Python 双版本**。
 
-![Forest Tree Scene](forest-view.png)
+![Forest Tree Scene](screenshots/forest-view.png)
 
 ## 项目结构
 
@@ -103,7 +103,7 @@ src/
 
 用户选择算法模板 → 代码在 Web Worker 沙箱中执行 → 每一步通过 `trace()` 记录快照 → 3D 场景根据快照逐帧播放 → 支持前进/后退/变速。
 
-![Union-Find Community](unionfind.png)
+![Union-Find Community](screenshots/unionfind.png)
 
 ## 开发
 
