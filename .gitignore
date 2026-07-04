@@ -26,6 +26,9 @@ debug-*.png
 debug-*.txt
 after-*.txt
 
+# Blog post (local only)
+【技术博客】*.md
+
 # IDE / OS
 .opencode/
 .playwright-mcp/
